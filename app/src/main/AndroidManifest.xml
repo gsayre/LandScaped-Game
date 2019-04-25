@@ -9,6 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".EasyMap"></activity>
+        <activity android:name=".MediumMap"></activity>
+        <activity android:name=".HardMap"></activity>
+        <activity android:name=".EasyLeaderboard"></activity>
+        <activity android:name=".MediumLeaderboard"></activity>
+        <activity android:name=".HardLeaderboard"></activity>
+        <activity android:name=".Instructions"></activity>
+        <activity android:name=".PopupEasy"
+            android:theme="@style/AppTheme.EasyPopTheme">
+
+        </activity>
+        <activity android:name=".PopupMedium"
+            android:theme="@style/AppTheme.EasyPopTheme">
+
+        </activity>
+        <activity android:name=".PopupHard"
+            android:theme="@style/AppTheme.EasyPopTheme">
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,20 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="15dp"
+        android:text="Landscaped"
+        android:textSize="55dp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="First button"/>
+        android:id="@+id/easymap"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#66808080"
+        android:onClick="buttonClick"
+        android:text="Easy" />
+
+    <Button
+        android:id="@+id/mediummap"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="#66808080"
+        android:onClick="buttonClick"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Medium" />
+
+    <Button
+        android:id="@+id/hardmap"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="#66808080"
+        android:onClick="buttonClick"
+        android:layout_marginTop="15dp"
+        android:text="Hard" />
+
+    <Button
+        android:id="@+id/leaderboard"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:background="#66808080"
+        android:onClick="buttonClick"
+        android:text="Leaderboard" />
+
+    <Button
+        android:id="@+id/instructions"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:background="#66808080"
+        android:onClick="buttonClick"
+        android:text="Instructions" />
+
 
 </LinearLayout>

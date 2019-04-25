@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Time Left: "
+            android:id="@+id/timeHard"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Score: "
+            android:id="@+id/scoreHard"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/HSq1"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq2"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq3"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq4"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq5"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq6"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq7"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq8"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq9"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq10"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq11"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq12"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq13"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq14"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq15"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq16"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq17"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq18"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq19"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq20"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq21"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq22"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq23"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq24"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq25"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq26"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq27"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq28"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq29"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq30"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq31"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq32"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq33"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq34"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq35"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq36"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq37"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq38"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq39"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq40"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq41"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq42"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq43"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq44"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq45"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq46"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq47"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq48"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq49"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq50"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq51"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq52"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq53"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq54"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq55"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq56"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq57"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq58"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq59"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq60"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq61"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq62"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq63"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq64"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq65"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq66"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq67"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq68"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq69"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq70"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq71"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq72"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq73"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq74"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq75"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq76"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq77"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq78"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq79"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq80"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq81"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq82"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq83"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq84"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq85"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq86"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq87"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq88"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq89"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq90"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq91"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq92"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq93"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq94"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq95"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq96"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq97"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq98"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq99"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+        <ImageButton
+            android:id="@+id/HSq100"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/freshgrass"
+            android:onClick="onClickHard" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/backhard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClickHard"
+        android:text="Back to Menu" />
+
+</LinearLayout>
